@@ -1,0 +1,33 @@
+{
+    "name": "jigius/soap",
+    "description": "Yet another trivial SOAP server and WSDL file provider",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jigius\\Soap\\": "src/"
+        }
+    },
+    "require": {
+        "ext-soap": "*",
+        "jigius/acc-core-log": "dev-master",
+        "hassankhan/config": "dev-develop"
+    },
+    "authors": [
+        {
+            "name": "jigius",
+            "email": "jigius@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:jigius/acc-core-log.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jigius/acc-core.git"
+        }
+    ],
+    "minimum-stability": "dev"
+}
